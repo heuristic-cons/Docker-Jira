@@ -1,0 +1,572 @@
+2020-01-05 13:03:35,746+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.
+2020-01-05 13:14:28,338+0000 http-nio-8080-exec-1      HttpSession created [1v2me3p]
+2020-01-05 13:16:23,259+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.
+2020-01-05 13:16:52,828+0000 http-nio-8080-exec-5 anonymous 796x7x1 - 172.26.0.1 /login.jsp HttpSession created [1wmw8iv]
+2020-01-05 13:17:10,899+0000 http-nio-8080-exec-10 anonymous 797x12x1 1wmw8iv 172.26.0.1 /login.jsp HttpSession [1wmw8iv] destroyed for 'anonymous'
+2020-01-05 13:17:10,903+0000 http-nio-8080-exec-10 anonymous 797x12x1 1wmw8iv 172.26.0.1 /login.jsp HttpSession created [i81gtz]
+2020-01-05 13:17:10,979+0000 http-nio-8080-exec-10 alkont 797x12x1 1wmw8iv 172.26.0.1 /login.jsp The user 'alkont' has PASSED authentication.
+2020-01-05 13:26:07,402+0000 localhost-startStop-2      HttpSession [1v2me3p] destroyed for 'anonymous'
+2020-01-05 13:26:07,404+0000 localhost-startStop-2      HttpSession [i81gtz] destroyed for 'alkont'
+2020-01-05 13:35:47,404+0000 http-nio-8080-exec-4      HttpSession created [1143c51]
+2020-01-05 13:36:06,473+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.
+2020-01-05 13:36:30,187+0000 http-nio-8080-exec-8 anonymous 816x4x1 - 172.27.0.1 /secure/BrowseProjects.jspa HttpSession created [19muci4]
+2020-01-05 13:37:08,857+0000 http-nio-8080-exec-2 anonymous 817x16x1 - 172.27.0.4 /rest/applinks/latest/applicationlink/d4142aa8-7b82-3da7-934b-a49b2540b96d/authentication/provider HttpSession created [1su8tbr]
+2020-01-05 13:37:08,976+0000 http-nio-8080-exec-2 anonymous 817x16x1 1su8tbr 172.27.0.4 /rest/applinks/latest/applicationlink/d4142aa8-7b82-3da7-934b-a49b2540b96d/authentication/provider HttpSession [1su8tbr] destroyed for 'anonymous'
+2020-01-05 13:37:09,045+0000 http-nio-8080-exec-10 anonymous 817x17x1 - 172.27.0.4 /rest/applinks/latest/manifest HttpSession created [1tapjfy]
+2020-01-05 13:37:09,126+0000 http-nio-8080-exec-10 anonymous 817x17x1 1tapjfy 172.27.0.4 /rest/applinks/latest/manifest HttpSession [1tapjfy] destroyed for 'anonymous'
+2020-01-05 13:46:36,956+0000 http-nio-8080-exec-10 anonymous 826x25x1 - 172.27.0.1 /login.jsp login : 'alkont' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2020-01-05 13:46:37,158+0000 http-nio-8080-exec-10 anonymous 826x25x1 - 172.27.0.1 /login.jsp The user 'alkont' has FAILED authentication.  Failure count equals 1
+2020-01-05 13:46:37,578+0000 http-nio-8080-exec-10 anonymous 826x25x1 - 172.27.0.1 /login.jsp HttpSession created [1krwp9g]
+2020-01-05 13:46:47,310+0000 http-nio-8080-exec-7 anonymous 826x30x1 1krwp9g 172.27.0.1 /login.jsp HttpSession [1krwp9g] destroyed for 'anonymous'
+2020-01-05 13:46:47,311+0000 http-nio-8080-exec-7 anonymous 826x30x1 1krwp9g 172.27.0.1 /login.jsp HttpSession created [12xznpv]
+2020-01-05 13:46:47,411+0000 http-nio-8080-exec-7 alkont 826x30x1 1krwp9g 172.27.0.1 /login.jsp The user 'alkont' has PASSED authentication.
+2020-01-05 13:47:05,902+0000 http-nio-8080-exec-2 alkont 827x52x1 12xznpv 172.27.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'alkont' has PASSED authentication.
+2020-01-05 13:47:05,942+0000 http-nio-8080-exec-2 alkont 827x52x1 12xznpv 172.27.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [12xznpv] destroyed for 'alkont'
+2020-01-05 13:47:05,943+0000 http-nio-8080-exec-2 alkont 827x52x1 12xznpv 172.27.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1bwhrm1]
+2020-01-05 13:49:39,169+0000 localhost-startStop-2      HttpSession [19muci4] destroyed for 'anonymous'
+2020-01-05 13:49:39,170+0000 localhost-startStop-2      HttpSession [1143c51] destroyed for 'anonymous'
+2020-01-05 13:49:39,171+0000 localhost-startStop-2      HttpSession [1bwhrm1] destroyed for 'alkont'
+2020-01-05 13:53:21,675+0000 http-nio-8080-exec-1      HttpSession created [1fpbq5w]
+2020-01-05 13:55:53,679+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.
+2020-01-05 13:56:24,720+0000 http-nio-8080-exec-2   -   HttpSession created [183rhs6]
+2020-01-05 14:00:25,899+0000 http-nio-8080-exec-1 anonymous 840x22x1 - 172.28.0.1 /rest/gadget/1.0/login HttpSession created [l869du]
+2020-01-05 14:00:26,038+0000 http-nio-8080-exec-1 alkont 840x22x1 - 172.28.0.1 /rest/gadget/1.0/login The user 'alkont' has PASSED authentication.
+2020-01-05 14:12:20,093+0000 localhost-startStop-2      HttpSession [l869du] destroyed for 'alkont'
+2020-01-05 14:12:20,094+0000 localhost-startStop-2      HttpSession [183rhs6] destroyed for 'anonymous'
+2020-01-05 14:12:20,094+0000 localhost-startStop-2      HttpSession [1fpbq5w] destroyed for 'anonymous'
+2020-01-05 15:48:22,885+0000 http-nio-8080-exec-1      HttpSession created [18l8vtx]
+2020-01-05 15:50:38,931+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.
+2020-01-05 15:51:06,428+0000 http-nio-8080-exec-5   -   HttpSession created [1oxk86s]
+2020-01-05 15:51:33,872+0000 http-nio-8080-exec-2 anonymous 951x16x2 - 172.29.0.6 /rest/applinks/latest/applicationlink/d4142aa8-7b82-3da7-934b-a49b2540b96d/authentication/provider HttpSession created [p1dlqw]
+2020-01-05 15:51:33,999+0000 http-nio-8080-exec-2 anonymous 951x16x2 p1dlqw 172.29.0.6 /rest/applinks/latest/applicationlink/d4142aa8-7b82-3da7-934b-a49b2540b96d/authentication/provider HttpSession [p1dlqw] destroyed for 'anonymous'
+2020-01-05 15:51:34,354+0000 http-nio-8080-exec-8 anonymous 951x17x1 - 172.29.0.6 /rest/applinks/latest/manifest HttpSession created [1wtiak4]
+2020-01-05 15:51:34,394+0000 http-nio-8080-exec-8 anonymous 951x17x1 1wtiak4 172.29.0.6 /rest/applinks/latest/manifest HttpSession [1wtiak4] destroyed for 'anonymous'
+2020-01-05 15:59:32,790+0000 http-nio-8080-exec-3 anonymous 959x21x1 - 172.29.0.1 /rest/gadget/1.0/login HttpSession created [t8c489]
+2020-01-05 15:59:32,892+0000 http-nio-8080-exec-3 alkont 959x21x1 - 172.29.0.1 /rest/gadget/1.0/login The user 'alkont' has PASSED authentication.
+2020-01-05 15:59:50,953+0000 http-nio-8080-exec-1 anonymous 959x106x3 - 172.29.0.1 /rest/webResources/1.0/resources HttpSession created [peuuzh]
+2020-01-05 15:59:50,975+0000 http-nio-8080-exec-1 alkont 959x106x3 peuuzh 172.29.0.1 /rest/webResources/1.0/resources HttpSession [peuuzh] destroyed for 'alkont'
+2020-01-05 16:03:30,083+0000 localhost-startStop-2      HttpSession [1oxk86s] destroyed for 'anonymous'
+2020-01-05 16:03:30,112+0000 localhost-startStop-2      HttpSession [t8c489] destroyed for 'alkont'
+2020-01-05 16:03:30,115+0000 localhost-startStop-2      HttpSession [18l8vtx] destroyed for 'anonymous'
+2020-01-05 16:20:07,936+0000 http-nio-8080-exec-2      HttpSession created [166v9g7]
+2020-01-05 16:24:44,347+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.
+2020-01-05 16:29:42,681+0000 http-nio-8080-exec-2 anonymous 989x6x1 - 172.30.0.1 /secure/SetupApplicationProperties!default.jspa HttpSession created [xxm06i]
+2020-01-05 16:36:48,533+0000 localhost-startStop-2      HttpSession [xxm06i] destroyed for 'alkont'
+2020-01-05 16:39:06,966+0000 http-nio-8080-exec-1      HttpSession created [dig9s]
+2020-01-05 16:42:41,745+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.
+2020-01-05 16:50:34,256+0000 http-nio-8080-exec-5 anonymous 1010x8x1 - 172.30.0.1 / HttpSession created [p4rzhs]
+2020-01-05 17:44:55,203+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [dig9s] destroyed for 'anonymous'
+2020-01-05 17:50:55,292+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [p4rzhs] destroyed for 'anonymous'
+2020-01-05 17:53:26,512+0000 http-nio-8080-exec-9 anonymous 1073x10x1 - 172.30.0.1 / HttpSession created [j7c74h]
+2020-01-05 18:53:56,071+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [j7c74h] destroyed for 'anonymous'
+2020-01-05 19:22:09,352+0000 http-nio-8080-exec-6 anonymous 1162x14x1 - 172.30.0.1 / HttpSession created [18vouy9]
+2020-01-05 19:56:28,483+0000 localhost-startStop-2      HttpSession [18vouy9] destroyed for 'anonymous'
+2020-01-06 06:47:52,454+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.
+2020-01-06 07:17:51,133+0000 http-nio-8080-exec-2   -   HttpSession created [1kbr7bv]
+2020-01-06 07:17:55,041+0000 http-nio-8080-exec-4   -   HttpSession created [uozs7z]
+2020-01-06 07:17:55,877+0000 http-nio-8080-exec-6 anonymous 437x4x1 - 172.30.0.1 / HttpSession created [8fosnu]
+2020-01-06 07:17:56,905+0000 http-nio-8080-exec-7   -   HttpSession created [17xcc9d]
+2020-01-06 07:17:58,490+0000 http-nio-8080-exec-9   -   HttpSession created [1yvdkaj]
+2020-01-06 07:18:00,248+0000 http-nio-8080-exec-1   -   HttpSession created [wdr7j6]
+2020-01-06 07:18:03,096+0000 http-nio-8080-exec-3   -   HttpSession created [p71cbm]
+2020-01-06 07:18:03,880+0000 http-nio-8080-exec-5   -   HttpSession created [1rgih4v]
+2020-01-06 07:18:04,633+0000 http-nio-8080-exec-7   -   HttpSession created [c8zlnk]
+2020-01-06 07:18:06,480+0000 http-nio-8080-exec-9   -   HttpSession created [1udnyd5]
+2020-01-06 07:18:07,263+0000 http-nio-8080-exec-1   -   HttpSession created [iqoj4m]
+2020-01-06 07:18:11,521+0000 http-nio-8080-exec-3   -   HttpSession created [ysevg6]
+2020-01-06 07:18:12,287+0000 http-nio-8080-exec-4   -   HttpSession created [1f3a8m7]
+2020-01-06 07:18:14,473+0000 http-nio-8080-exec-6   -   HttpSession created [1qo67py]
+2020-01-06 07:18:15,240+0000 http-nio-8080-exec-8   -   HttpSession created [1thte8p]
+2020-01-06 07:18:16,008+0000 http-nio-8080-exec-10   -   HttpSession created [1uo490a]
+2020-01-06 07:18:16,781+0000 http-nio-8080-exec-2   -   HttpSession created [5a8fke]
+2020-01-06 07:18:18,542+0000 http-nio-8080-exec-4   -   HttpSession created [o70khc]
+2020-01-06 07:18:19,291+0000 http-nio-8080-exec-6   -   HttpSession created [1kvvnss]
+2020-01-06 07:18:20,030+0000 http-nio-8080-exec-8   -   HttpSession created [hazhfq]
+2020-01-06 07:18:20,786+0000 http-nio-8080-exec-10   -   HttpSession created [1fzzd33]
+2020-01-06 07:18:22,509+0000 http-nio-8080-exec-2   -   HttpSession created [52j38x]
+2020-01-06 07:18:23,285+0000 http-nio-8080-exec-4   -   HttpSession created [gjojug]
+2020-01-06 07:18:26,491+0000 http-nio-8080-exec-6   -   HttpSession created [12m01nv]
+2020-01-06 07:18:30,490+0000 http-nio-8080-exec-8   -   HttpSession created [1jbqgcq]
+2020-01-06 07:18:31,247+0000 http-nio-8080-exec-10   -   HttpSession created [mnfhip]
+2020-01-06 07:18:31,998+0000 http-nio-8080-exec-2   -   HttpSession created [1t5ve1a]
+2020-01-06 07:18:34,032+0000 http-nio-8080-exec-4   -   HttpSession created [4jxa0h]
+2020-01-06 07:18:34,789+0000 http-nio-8080-exec-6   -   HttpSession created [jby7pd]
+2020-01-06 07:18:35,558+0000 http-nio-8080-exec-8   -   HttpSession created [1wtj1ww]
+2020-01-06 07:18:36,345+0000 http-nio-8080-exec-10   -   HttpSession created [ympox0]
+2020-01-06 07:18:39,481+0000 http-nio-8080-exec-2   -   HttpSession created [1y1l0mf]
+2020-01-06 07:18:41,511+0000 http-nio-8080-exec-4   -   HttpSession created [1as6jzx]
+2020-01-06 07:18:42,524+0000 http-nio-8080-exec-6   -   HttpSession created [1hqb600]
+2020-01-06 07:18:43,270+0000 http-nio-8080-exec-8   -   HttpSession created [1xhzf6k]
+2020-01-06 07:18:46,531+0000 http-nio-8080-exec-10   -   HttpSession created [4rgjbc]
+2020-01-06 07:18:47,299+0000 http-nio-8080-exec-2   -   HttpSession created [1fehjs]
+2020-01-06 07:18:48,085+0000 http-nio-8080-exec-4   -   HttpSession created [1hgdmrz]
+2020-01-06 07:18:48,847+0000 http-nio-8080-exec-6   -   HttpSession created [1vyx3iy]
+2020-01-06 07:18:50,484+0000 http-nio-8080-exec-8   -   HttpSession created [1rusmc5]
+2020-01-06 07:18:51,289+0000 http-nio-8080-exec-10   -   HttpSession created [6rrhte]
+2020-01-06 07:18:52,087+0000 http-nio-8080-exec-2   -   HttpSession created [cs3v55]
+2020-01-06 07:18:52,852+0000 http-nio-8080-exec-4   -   HttpSession created [10871o6]
+2020-01-06 07:18:53,608+0000 http-nio-8080-exec-6   -   HttpSession created [12x1x1k]
+2020-01-06 07:18:54,367+0000 http-nio-8080-exec-8   -   HttpSession created [ielvwe]
+2020-01-06 07:18:58,471+0000 http-nio-8080-exec-10   -   HttpSession created [mhnplg]
+2020-01-06 07:19:02,498+0000 http-nio-8080-exec-2   -   HttpSession created [i1io7v]
+2020-01-06 07:19:06,470+0000 http-nio-8080-exec-4   -   HttpSession created [o3yc3d]
+2020-01-06 07:19:10,458+0000 http-nio-8080-exec-6   -   HttpSession created [1m4h0ca]
+2020-01-06 07:19:11,302+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1kbr7bv] destroyed for 'anonymous'
+2020-01-06 07:19:11,303+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [8fosnu] destroyed for 'anonymous'
+2020-01-06 07:19:14,472+0000 http-nio-8080-exec-8   -   HttpSession created [1fknn4d]
+2020-01-06 07:19:18,498+0000 http-nio-8080-exec-10   -   HttpSession created [1nkg7yj]
+2020-01-06 07:19:22,448+0000 http-nio-8080-exec-2   -   HttpSession created [coq4bs]
+2020-01-06 07:19:26,484+0000 http-nio-8080-exec-4   -   HttpSession created [1iwwzpq]
+2020-01-06 07:19:30,467+0000 http-nio-8080-exec-6   -   HttpSession created [1hag5nl]
+2020-01-06 07:19:58,486+0000 http-nio-8080-exec-8   -   HttpSession created [pe0u9j]
+2020-01-06 07:20:02,474+0000 http-nio-8080-exec-10   -   HttpSession created [afxpku]
+2020-01-06 07:20:10,466+0000 http-nio-8080-exec-3 anonymous 440x58x1 - 172.30.0.1 / HttpSession created [bdvrmc]
+2020-01-06 07:20:14,104+0000 http-nio-8080-exec-4 anonymous 440x59x1 - 172.30.0.1 / HttpSession created [1glgt8z]
+2020-01-06 07:20:38,465+0000 http-nio-8080-exec-6   -   HttpSession created [qgbp7f]
+2020-01-06 07:20:42,458+0000 http-nio-8080-exec-7 anonymous 440x61x1 - 172.30.0.1 / HttpSession created [12i7ewk]
+2020-01-06 07:20:44,264+0000 http-nio-8080-exec-8   -   HttpSession created [2c2zuo]
+2020-01-06 07:20:46,489+0000 http-nio-8080-exec-10   -   HttpSession created [g59hr2]
+2020-01-06 07:20:50,540+0000 http-nio-8080-exec-2   -   HttpSession created [10l6x6f]
+2020-01-06 07:20:54,481+0000 http-nio-8080-exec-4   -   HttpSession created [1pyjmvi]
+2020-01-06 07:20:55,245+0000 http-nio-8080-exec-6   -   HttpSession created [bdswmj]
+2020-01-06 07:20:58,485+0000 http-nio-8080-exec-8   -   HttpSession created [1n2mivw]
+2020-01-06 07:20:59,244+0000 http-nio-8080-exec-1   -   HttpSession created [1hlmar8]
+2020-01-06 07:21:02,463+0000 http-nio-8080-exec-3   -   HttpSession created [mfbyra]
+2020-01-06 07:21:03,231+0000 http-nio-8080-exec-5   -   HttpSession created [1me68kq]
+2020-01-06 07:21:06,456+0000 http-nio-8080-exec-7   -   HttpSession created [k8s7i]
+2020-01-06 07:21:07,220+0000 http-nio-8080-exec-10   -   HttpSession created [16adrww]
+2020-01-06 07:21:10,456+0000 http-nio-8080-exec-1   -   HttpSession created [1xcsgli]
+2020-01-06 07:21:11,196+0000 http-nio-8080-exec-3   -   HttpSession created [1xayfx5]
+2020-01-06 07:21:11,347+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [bdvrmc] destroyed for 'anonymous'
+2020-01-06 07:21:14,481+0000 http-nio-8080-exec-5   -   HttpSession created [1217h53]
+2020-01-06 07:21:15,286+0000 http-nio-8080-exec-7   -   HttpSession created [19hwrjc]
+2020-01-06 07:21:18,471+0000 http-nio-8080-exec-10   -   HttpSession created [raf8dn]
+2020-01-06 07:21:19,228+0000 http-nio-8080-exec-1   -   HttpSession created [16easpe]
+2020-01-06 07:21:22,493+0000 http-nio-8080-exec-3   -   HttpSession created [vfqxho]
+2020-01-06 07:21:23,260+0000 http-nio-8080-exec-5   -   HttpSession created [d94hna]
+2020-01-06 07:21:26,469+0000 http-nio-8080-exec-7   -   HttpSession created [hqe354]
+2020-01-06 07:21:27,239+0000 http-nio-8080-exec-10   -   HttpSession created [1cocbqi]
+2020-01-06 07:21:30,490+0000 http-nio-8080-exec-1   -   HttpSession created [1mn8f7k]
+2020-01-06 07:21:31,271+0000 http-nio-8080-exec-3   -   HttpSession created [xtkeot]
+2020-01-06 07:21:34,483+0000 http-nio-8080-exec-5   -   HttpSession created [36r748]
+2020-01-06 07:21:36,494+0000 http-nio-8080-exec-7   -   HttpSession created [v6dfi8]
+2020-01-06 07:21:38,572+0000 http-nio-8080-exec-10   -   HttpSession created [43n3i4]
+2020-01-06 07:21:39,325+0000 http-nio-8080-exec-1   -   HttpSession created [khckwl]
+2020-01-06 07:21:42,474+0000 http-nio-8080-exec-3   -   HttpSession created [20ap0a]
+2020-01-06 07:21:43,240+0000 http-nio-8080-exec-5   -   HttpSession created [h319xg]
+2020-01-06 07:21:46,468+0000 http-nio-8080-exec-7   -   HttpSession created [1qshglx]
+2020-01-06 07:21:47,233+0000 http-nio-8080-exec-10   -   HttpSession created [1x5lvlu]
+2020-01-06 07:21:50,464+0000 http-nio-8080-exec-1   -   HttpSession created [1r9v1yr]
+2020-01-06 07:21:51,221+0000 http-nio-8080-exec-3   -   HttpSession created [19r1g2x]
+2020-01-06 07:21:54,454+0000 http-nio-8080-exec-5   -   HttpSession created [13oui9u]
+2020-01-06 07:21:55,244+0000 http-nio-8080-exec-7   -   HttpSession created [1gmahbb]
+2020-01-06 07:21:58,487+0000 http-nio-8080-exec-10   -   HttpSession created [wnxwl3]
+2020-01-06 07:21:59,254+0000 http-nio-8080-exec-1   -   HttpSession created [ez1bsn]
+2020-01-06 07:22:02,459+0000 http-nio-8080-exec-3   -   HttpSession created [1grmtbl]
+2020-01-06 07:22:04,463+0000 http-nio-8080-exec-5   -   HttpSession created [kpjg0y]
+2020-01-06 07:22:06,539+0000 http-nio-8080-exec-7   -   HttpSession created [193b11q]
+2020-01-06 07:22:08,506+0000 http-nio-8080-exec-10   -   HttpSession created [12s69g3]
+2020-01-06 07:22:10,518+0000 http-nio-8080-exec-1   -   HttpSession created [agi6dl]
+2020-01-06 07:22:11,289+0000 http-nio-8080-exec-3   -   HttpSession created [bvuz9]
+2020-01-06 07:22:11,359+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1glgt8z] destroyed for 'anonymous'
+2020-01-06 07:22:11,360+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [12i7ewk] destroyed for 'anonymous'
+2020-01-06 07:22:14,466+0000 http-nio-8080-exec-5   -   HttpSession created [c3s4m]
+2020-01-06 07:22:15,241+0000 http-nio-8080-exec-7   -   HttpSession created [fguto6]
+2020-01-06 07:22:18,546+0000 http-nio-8080-exec-10   -   HttpSession created [ccwlrn]
+2020-01-06 07:22:19,311+0000 http-nio-8080-exec-1   -   HttpSession created [vm9krw]
+2020-01-06 07:22:23,514+0000 http-nio-8080-exec-3   -   HttpSession created [7vroqe]
+2020-01-06 07:22:26,501+0000 http-nio-8080-exec-5   -   HttpSession created [zz0tj]
+2020-01-06 07:22:27,255+0000 http-nio-8080-exec-7   -   HttpSession created [5fj5an]
+2020-01-06 07:22:30,514+0000 http-nio-8080-exec-10   -   HttpSession created [x9r0fn]
+2020-01-06 07:22:31,282+0000 http-nio-8080-exec-1   -   HttpSession created [1ekf0ql]
+2020-01-06 07:22:34,488+0000 http-nio-8080-exec-3   -   HttpSession created [1widtqk]
+2020-01-06 07:22:35,266+0000 http-nio-8080-exec-5   -   HttpSession created [1gm4s4r]
+2020-01-06 07:22:39,445+0000 http-nio-8080-exec-7   -   HttpSession created [tpt94]
+2020-01-06 07:22:42,494+0000 http-nio-8080-exec-10   -   HttpSession created [120cltx]
+2020-01-06 07:22:44,440+0000 http-nio-8080-exec-1   -   HttpSession created [73xu44]
+2020-01-06 07:22:46,475+0000 http-nio-8080-exec-3   -   HttpSession created [1dwlcve]
+2020-01-06 07:22:47,218+0000 http-nio-8080-exec-5   -   HttpSession created [voozey]
+2020-01-06 07:22:47,988+0000 http-nio-8080-exec-7   -   HttpSession created [62fvue]
+2020-01-06 07:22:50,463+0000 http-nio-8080-exec-10   -   HttpSession created [jf6mtx]
+2020-01-06 07:22:51,207+0000 http-nio-8080-exec-1   -   HttpSession created [onv8xz]
+2020-01-06 07:22:51,958+0000 http-nio-8080-exec-3   -   HttpSession created [1299qb2]
+2020-01-06 07:22:54,518+0000 http-nio-8080-exec-5   -   HttpSession created [93j6s4]
+2020-01-06 07:22:55,286+0000 http-nio-8080-exec-7   -   HttpSession created [q7xrz3]
+2020-01-06 07:22:56,069+0000 http-nio-8080-exec-10   -   HttpSession created [1jdwvh2]
+2020-01-06 07:22:58,509+0000 http-nio-8080-exec-1   -   HttpSession created [1rnswo1]
+2020-01-06 07:23:03,480+0000 http-nio-8080-exec-3   -   HttpSession created [ijmc39]
+2020-01-06 07:23:06,533+0000 http-nio-8080-exec-5   -   HttpSession created [188wkwr]
+2020-01-06 07:23:07,279+0000 http-nio-8080-exec-7   -   HttpSession created [1mtapv2]
+2020-01-06 07:23:08,028+0000 http-nio-8080-exec-10   -   HttpSession created [iv0k9c]
+2020-01-06 07:23:10,478+0000 http-nio-8080-exec-1   -   HttpSession created [c9tcl3]
+2020-01-06 07:23:11,260+0000 http-nio-8080-exec-3   -   HttpSession created [1qjrzwk]
+2020-01-06 07:23:12,017+0000 http-nio-8080-exec-5   -   HttpSession created [c2rvjx]
+2020-01-06 07:23:14,511+0000 http-nio-8080-exec-7   -   HttpSession created [1qy6wi5]
+2020-01-06 07:23:15,267+0000 http-nio-8080-exec-10   -   HttpSession created [1izrx1y]
+2020-01-06 07:23:18,505+0000 http-nio-8080-exec-1   -   HttpSession created [1xmjo16]
+2020-01-06 07:23:19,257+0000 http-nio-8080-exec-3   -   HttpSession created [1kb9tb8]
+2020-01-06 07:23:22,493+0000 http-nio-8080-exec-5   -   HttpSession created [pyc2q1]
+2020-01-06 07:23:23,255+0000 http-nio-8080-exec-7   -   HttpSession created [1oapd4t]
+2020-01-06 07:23:25,292+0000 http-nio-8080-exec-10   -   HttpSession created [ijmwf8]
+2020-01-06 07:23:26,528+0000 http-nio-8080-exec-1   -   HttpSession created [zz0j5t]
+2020-01-06 07:23:27,289+0000 http-nio-8080-exec-3   -   HttpSession created [1rxipz8]
+2020-01-06 07:23:29,230+0000 http-nio-8080-exec-5   -   HttpSession created [1dttqxr]
+2020-01-06 07:23:30,485+0000 http-nio-8080-exec-7   -   HttpSession created [173bz4x]
+2020-01-06 07:23:31,273+0000 http-nio-8080-exec-10   -   HttpSession created [lyq39m]
+2020-01-06 07:23:32,042+0000 http-nio-8080-exec-1   -   HttpSession created [p3noxb]
+2020-01-06 07:23:34,470+0000 http-nio-8080-exec-3   -   HttpSession created [oj1fi8]
+2020-01-06 07:23:35,234+0000 http-nio-8080-exec-5   -   HttpSession created [1p82q8l]
+2020-01-06 07:23:35,996+0000 http-nio-8080-exec-7   -   HttpSession created [lisrnx]
+2020-01-06 07:23:38,458+0000 http-nio-8080-exec-10   -   HttpSession created [rz2t7x]
+2020-01-06 07:23:39,197+0000 http-nio-8080-exec-1   -   HttpSession created [h3a1uh]
+2020-01-06 07:23:39,956+0000 http-nio-8080-exec-3   -   HttpSession created [1ll778h]
+2020-01-06 07:23:42,507+0000 http-nio-8080-exec-5   -   HttpSession created [1acobfk]
+2020-01-06 07:23:46,459+0000 http-nio-8080-exec-7   -   HttpSession created [dd01ni]
+2020-01-06 07:23:47,222+0000 http-nio-8080-exec-10   -   HttpSession created [ql2ckg]
+2020-01-06 07:23:47,978+0000 http-nio-8080-exec-1   -   HttpSession created [1spy18a]
+2020-01-06 07:23:50,463+0000 http-nio-8080-exec-3   -   HttpSession created [19n29f8]
+2020-01-06 07:23:51,224+0000 http-nio-8080-exec-5   -   HttpSession created [fmdo0]
+2020-01-06 07:23:55,773+0000 http-nio-8080-exec-7   -   HttpSession created [1kby8e1]
+2020-01-06 07:23:58,461+0000 http-nio-8080-exec-10   -   HttpSession created [p482me]
+2020-01-06 07:23:59,216+0000 http-nio-8080-exec-1 anonymous 443x163x1 - 172.30.0.1 /secure/ContactAdministrators!default.jspa HttpSession created [17l81gs]
+2020-01-06 07:24:00,637+0000 http-nio-8080-exec-2   -   HttpSession created [1hgspwm]
+2020-01-06 07:24:02,535+0000 http-nio-8080-exec-4   -   HttpSession created [9wq7fv]
+2020-01-06 07:24:03,291+0000 http-nio-8080-exec-6   -   HttpSession created [1krlog5]
+2020-01-06 07:24:03,649+0000 http-nio-8080-exec-7   -   HttpSession created [14sbcnn]
+2020-01-06 07:24:07,255+0000 http-nio-8080-exec-10   -   HttpSession created [1cjnued]
+2020-01-06 07:24:09,282+0000 http-nio-8080-exec-1   -   HttpSession created [18rs0s6]
+2020-01-06 07:24:10,500+0000 http-nio-8080-exec-3   -   HttpSession created [82i4m4]
+2020-01-06 07:24:11,272+0000 http-nio-8080-exec-5   -   HttpSession created [5szibh]
+2020-01-06 07:24:13,315+0000 http-nio-8080-exec-7   -   HttpSession created [2sjs3g]
+2020-01-06 07:24:14,529+0000 http-nio-8080-exec-10   -   HttpSession created [ugzdpt]
+2020-01-06 07:24:15,297+0000 http-nio-8080-exec-1   -   HttpSession created [1g8ho6l]
+2020-01-06 07:24:16,072+0000 http-nio-8080-exec-3   -   HttpSession created [m5fpdh]
+2020-01-06 07:24:18,560+0000 http-nio-8080-exec-5   -   HttpSession created [19aymp2]
+2020-01-06 07:24:19,330+0000 http-nio-8080-exec-7   -   HttpSession created [1qoxvm6]
+2020-01-06 07:24:20,109+0000 http-nio-8080-exec-10   -   HttpSession created [bw0w4n]
+2020-01-06 07:24:22,496+0000 http-nio-8080-exec-1   -   HttpSession created [ol2psw]
+2020-01-06 07:24:23,275+0000 http-nio-8080-exec-3   -   HttpSession created [14vhjz5]
+2020-01-06 07:24:24,017+0000 http-nio-8080-exec-5   -   HttpSession created [leaasj]
+2020-01-06 07:24:26,469+0000 http-nio-8080-exec-7   -   HttpSession created [yajb66]
+2020-01-06 07:24:27,237+0000 http-nio-8080-exec-10   -   HttpSession created [1anw139]
+2020-01-06 07:24:27,975+0000 http-nio-8080-exec-1   -   HttpSession created [1k2kqg6]
+2020-01-06 07:24:30,473+0000 http-nio-8080-exec-3   -   HttpSession created [1i84whh]
+2020-01-06 07:24:31,246+0000 http-nio-8080-exec-5   -   HttpSession created [1siy1p3]
+2020-01-06 07:24:32,030+0000 http-nio-8080-exec-7   -   HttpSession created [3fashh]
+2020-01-06 07:24:34,457+0000 http-nio-8080-exec-10   -   HttpSession created [ni4h40]
+2020-01-06 07:24:35,225+0000 http-nio-8080-exec-1   -   HttpSession created [1yehkdh]
+2020-01-06 07:24:35,979+0000 http-nio-8080-exec-3   -   HttpSession created [pcy6dz]
+2020-01-06 07:24:38,506+0000 http-nio-8080-exec-5   -   HttpSession created [1j8vm1t]
+2020-01-06 07:24:39,262+0000 http-nio-8080-exec-7   -   HttpSession created [14xzxul]
+2020-01-06 07:24:40,014+0000 http-nio-8080-exec-10   -   HttpSession created [zpbgw6]
+2020-01-06 07:24:42,474+0000 http-nio-8080-exec-1   -   HttpSession created [dyldb0]
+2020-01-06 07:24:43,205+0000 http-nio-8080-exec-3   -   HttpSession created [t3dxwq]
+2020-01-06 07:24:43,963+0000 http-nio-8080-exec-5   -   HttpSession created [uszgni]
+2020-01-06 07:24:46,491+0000 http-nio-8080-exec-7   -   HttpSession created [1fzsy2f]
+2020-01-06 07:24:47,283+0000 http-nio-8080-exec-10   -   HttpSession created [1cx1vyq]
+2020-01-06 07:24:49,309+0000 http-nio-8080-exec-1   -   HttpSession created [haipu2]
+2020-01-06 07:24:50,495+0000 http-nio-8080-exec-3   -   HttpSession created [7u7swj]
+2020-01-06 07:24:51,273+0000 http-nio-8080-exec-5   -   HttpSession created [1mpmo1]
+2020-01-06 07:24:52,098+0000 http-nio-8080-exec-7   -   HttpSession created [mrqwli]
+2020-01-06 07:24:54,478+0000 http-nio-8080-exec-10   -   HttpSession created [1ja9785]
+2020-01-06 07:24:55,211+0000 http-nio-8080-exec-1   -   HttpSession created [1xokh8t]
+2020-01-06 07:24:55,946+0000 http-nio-8080-exec-3   -   HttpSession created [1wth7gj]
+2020-01-06 07:24:58,472+0000 http-nio-8080-exec-5   -   HttpSession created [wnzb4w]
+2020-01-06 07:24:59,231+0000 http-nio-8080-exec-7   -   HttpSession created [1clne7o]
+2020-01-06 07:24:59,968+0000 http-nio-8080-exec-10   -   HttpSession created [17ukkmn]
+2020-01-06 07:25:02,487+0000 http-nio-8080-exec-1   -   HttpSession created [1kee2qf]
+2020-01-06 07:25:03,267+0000 http-nio-8080-exec-3   -   HttpSession created [1a8wooz]
+2020-01-06 07:25:04,020+0000 http-nio-8080-exec-5   -   HttpSession created [4cvfmx]
+2020-01-06 07:25:06,450+0000 http-nio-8080-exec-7   -   HttpSession created [14lw8ja]
+2020-01-06 07:25:07,201+0000 http-nio-8080-exec-10   -   HttpSession created [pynseu]
+2020-01-06 07:25:07,958+0000 http-nio-8080-exec-1   -   HttpSession created [eaasl6]
+2020-01-06 07:25:10,469+0000 http-nio-8080-exec-3   -   HttpSession created [1gvtnhp]
+2020-01-06 07:25:11,217+0000 http-nio-8080-exec-5   -   HttpSession created [6phdc5]
+2020-01-06 07:25:11,409+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [17l81gs] destroyed for 'anonymous'
+2020-01-06 07:25:11,963+0000 http-nio-8080-exec-7   -   HttpSession created [1k1g4g6]
+2020-01-06 07:25:14,460+0000 http-nio-8080-exec-10   -   HttpSession created [7jmo5a]
+2020-01-06 07:25:15,215+0000 http-nio-8080-exec-1   -   HttpSession created [178a1bl]
+2020-01-06 07:25:15,977+0000 http-nio-8080-exec-3   -   HttpSession created [11cecww]
+2020-01-06 07:25:18,456+0000 http-nio-8080-exec-5   -   HttpSession created [idcml6]
+2020-01-06 07:25:20,232+0000 http-nio-8080-exec-7   -   HttpSession created [a4e7rf]
+2020-01-06 07:25:21,005+0000 http-nio-8080-exec-10   -   HttpSession created [w9arzr]
+2020-01-06 07:25:21,758+0000 http-nio-8080-exec-1   -   HttpSession created [1eex4s1]
+2020-01-06 07:25:22,516+0000 http-nio-8080-exec-3   -   HttpSession created [zs93xr]
+2020-01-06 07:25:26,454+0000 http-nio-8080-exec-5   -   HttpSession created [10l8xdo]
+2020-01-06 07:25:30,453+0000 http-nio-8080-exec-7   -   HttpSession created [9f23lg]
+2020-01-06 07:25:34,512+0000 http-nio-8080-exec-10   -   HttpSession created [126ll7h]
+2020-01-06 07:25:38,453+0000 http-nio-8080-exec-1   -   HttpSession created [itttdc]
+2020-01-06 07:25:42,471+0000 http-nio-8080-exec-3   -   HttpSession created [5aatou]
+2020-01-06 07:25:46,456+0000 http-nio-8080-exec-5   -   HttpSession created [6d839h]
+2020-01-06 07:25:50,461+0000 http-nio-8080-exec-7   -   HttpSession created [1ddqow9]
+2020-01-06 07:25:54,476+0000 http-nio-8080-exec-10   -   HttpSession created [dm4nhy]
+2020-01-06 07:25:58,459+0000 http-nio-8080-exec-1   -   HttpSession created [yhffcd]
+2020-01-06 07:26:02,452+0000 http-nio-8080-exec-3   -   HttpSession created [1iwpsxq]
+2020-01-06 07:26:06,463+0000 http-nio-8080-exec-5   -   HttpSession created [5l6vws]
+2020-01-06 07:26:10,450+0000 http-nio-8080-exec-7   -   HttpSession created [1fhqaix]
+2020-01-06 07:26:14,561+0000 http-nio-8080-exec-10   -   HttpSession created [1mepoke]
+2020-01-06 07:26:18,455+0000 http-nio-8080-exec-1   -   HttpSession created [11uxu4k]
+2020-01-06 07:26:22,443+0000 http-nio-8080-exec-3   -   HttpSession created [yzd6pa]
+2020-01-06 07:26:26,489+0000 http-nio-8080-exec-5   -   HttpSession created [13al8q0]
+2020-01-06 07:26:30,516+0000 http-nio-8080-exec-7   -   HttpSession created [lzb52v]
+2020-01-06 07:26:34,461+0000 http-nio-8080-exec-10   -   HttpSession created [1cdc30r]
+2020-01-06 07:26:38,476+0000 http-nio-8080-exec-1   -   HttpSession created [td4bfx]
+2020-01-06 07:26:42,475+0000 http-nio-8080-exec-3   -   HttpSession created [17gud6l]
+2020-01-06 07:26:46,450+0000 http-nio-8080-exec-5   -   HttpSession created [bqfge8]
+2020-01-06 07:26:54,465+0000 http-nio-8080-exec-7   -   HttpSession created [1fl8bus]
+2020-01-06 07:26:58,459+0000 http-nio-8080-exec-10   -   HttpSession created [ubo5nx]
+2020-01-06 07:27:02,434+0000 http-nio-8080-exec-1   -   HttpSession created [1vxp9xo]
+2020-01-06 07:27:06,446+0000 http-nio-8080-exec-3   -   HttpSession created [7llooa]
+2020-01-06 07:28:08,424+0000 http-nio-8080-exec-5 anonymous 448x251x1 - 172.30.0.1 / HttpSession created [5sk2p5]
+2020-01-06 08:09:02,898+0000 http-nio-8080-exec-5 anonymous 489x281x1 - 172.30.0.1 /secure/Dashboard.jspa HttpSession created [nb39jm]
+2020-01-06 08:27:21,623+0000 http-nio-8080-exec-7 anonymous 507x302x1 - 172.30.0.1 / HttpSession created [ij7mpa]
+2020-01-06 08:29:12,746+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [5sk2p5] destroyed for 'anonymous'
+2020-01-06 08:41:21,063+0000 localhost-startStop-2      HttpSession [1mtapv2] destroyed for 'anonymous'
+2020-01-06 08:41:21,071+0000 localhost-startStop-2      HttpSession [7u7swj] destroyed for 'anonymous'
+2020-01-06 08:41:21,080+0000 localhost-startStop-2      HttpSession [1vyx3iy] destroyed for 'anonymous'
+2020-01-06 08:41:21,116+0000 localhost-startStop-2      HttpSession [14vhjz5] destroyed for 'anonymous'
+2020-01-06 08:41:21,117+0000 localhost-startStop-2      HttpSession [1fknn4d] destroyed for 'anonymous'
+2020-01-06 08:41:21,118+0000 localhost-startStop-2      HttpSession [36r748] destroyed for 'anonymous'
+2020-01-06 08:41:21,118+0000 localhost-startStop-2      HttpSession [1krlog5] destroyed for 'anonymous'
+2020-01-06 08:41:21,118+0000 localhost-startStop-2      HttpSession [1pyjmvi] destroyed for 'anonymous'
+2020-01-06 08:41:21,120+0000 localhost-startStop-2      HttpSession [w9arzr] destroyed for 'anonymous'
+2020-01-06 08:41:21,121+0000 localhost-startStop-2      HttpSession [1hlmar8] destroyed for 'anonymous'
+2020-01-06 08:41:21,121+0000 localhost-startStop-2      HttpSession [1n2mivw] destroyed for 'anonymous'
+2020-01-06 08:41:21,122+0000 localhost-startStop-2      HttpSession [q7xrz3] destroyed for 'anonymous'
+2020-01-06 08:41:21,123+0000 localhost-startStop-2      HttpSession [1hqb600] destroyed for 'anonymous'
+2020-01-06 08:41:21,124+0000 localhost-startStop-2      HttpSession [7vroqe] destroyed for 'anonymous'
+2020-01-06 08:41:21,131+0000 localhost-startStop-2      HttpSession [1cx1vyq] destroyed for 'anonymous'
+2020-01-06 08:41:21,132+0000 localhost-startStop-2      HttpSession [1ll778h] destroyed for 'anonymous'
+2020-01-06 08:41:21,132+0000 localhost-startStop-2      HttpSession [1siy1p3] destroyed for 'anonymous'
+2020-01-06 08:41:21,150+0000 localhost-startStop-2      HttpSession [zpbgw6] destroyed for 'anonymous'
+2020-01-06 08:41:21,152+0000 localhost-startStop-2      HttpSession [ez1bsn] destroyed for 'anonymous'
+2020-01-06 08:41:21,156+0000 localhost-startStop-2      HttpSession [7jmo5a] destroyed for 'anonymous'
+2020-01-06 08:41:21,156+0000 localhost-startStop-2      HttpSession [voozey] destroyed for 'anonymous'
+2020-01-06 08:41:21,159+0000 localhost-startStop-2      HttpSession [52j38x] destroyed for 'anonymous'
+2020-01-06 08:41:21,159+0000 localhost-startStop-2      HttpSession [khckwl] destroyed for 'anonymous'
+2020-01-06 08:41:21,160+0000 localhost-startStop-2      HttpSession [leaasj] destroyed for 'anonymous'
+2020-01-06 08:41:21,161+0000 localhost-startStop-2      HttpSession [188wkwr] destroyed for 'anonymous'
+2020-01-06 08:41:21,162+0000 localhost-startStop-2      HttpSession [lzb52v] destroyed for 'anonymous'
+2020-01-06 08:41:21,163+0000 localhost-startStop-2      HttpSession [1cocbqi] destroyed for 'anonymous'
+2020-01-06 08:41:21,167+0000 localhost-startStop-2      HttpSession [1vxp9xo] destroyed for 'anonymous'
+2020-01-06 08:41:21,169+0000 localhost-startStop-2      HttpSession [vm9krw] destroyed for 'anonymous'
+2020-01-06 08:41:21,170+0000 localhost-startStop-2      HttpSession [xtkeot] destroyed for 'anonymous'
+2020-01-06 08:41:21,170+0000 localhost-startStop-2      HttpSession [1xmjo16] destroyed for 'anonymous'
+2020-01-06 08:41:21,171+0000 localhost-startStop-2      HttpSession [1mn8f7k] destroyed for 'anonymous'
+2020-01-06 08:41:21,171+0000 localhost-startStop-2      HttpSession [mnfhip] destroyed for 'anonymous'
+2020-01-06 08:41:21,174+0000 localhost-startStop-2      HttpSession [5szibh] destroyed for 'anonymous'
+2020-01-06 08:41:21,177+0000 localhost-startStop-2      HttpSession [1fl8bus] destroyed for 'anonymous'
+2020-01-06 08:41:21,312+0000 localhost-startStop-2      HttpSession [1gvtnhp] destroyed for 'anonymous'
+2020-01-06 08:41:21,313+0000 localhost-startStop-2      HttpSession [19n29f8] destroyed for 'anonymous'
+2020-01-06 08:41:21,313+0000 localhost-startStop-2      HttpSession [o70khc] destroyed for 'anonymous'
+2020-01-06 08:41:21,313+0000 localhost-startStop-2      HttpSession [zz0tj] destroyed for 'anonymous'
+2020-01-06 08:41:21,314+0000 localhost-startStop-2      HttpSession [16adrww] destroyed for 'anonymous'
+2020-01-06 08:41:21,314+0000 localhost-startStop-2      HttpSession [x9r0fn] destroyed for 'anonymous'
+2020-01-06 08:41:21,314+0000 localhost-startStop-2      HttpSession [173bz4x] destroyed for 'anonymous'
+2020-01-06 08:41:21,314+0000 localhost-startStop-2      HttpSession [ol2psw] destroyed for 'anonymous'
+2020-01-06 08:41:21,315+0000 localhost-startStop-2      HttpSession [6phdc5] destroyed for 'anonymous'
+2020-01-06 08:41:21,315+0000 localhost-startStop-2      HttpSession [c9tcl3] destroyed for 'anonymous'
+2020-01-06 08:41:21,315+0000 localhost-startStop-2      HttpSession [1xayfx5] destroyed for 'anonymous'
+2020-01-06 08:41:21,316+0000 localhost-startStop-2      HttpSession [p3noxb] destroyed for 'anonymous'
+2020-01-06 08:41:21,316+0000 localhost-startStop-2      HttpSession [1oapd4t] destroyed for 'anonymous'
+2020-01-06 08:41:21,316+0000 localhost-startStop-2      HttpSession [12x1x1k] destroyed for 'anonymous'
+2020-01-06 08:41:21,316+0000 localhost-startStop-2      HttpSession [10871o6] destroyed for 'anonymous'
+2020-01-06 08:41:21,317+0000 localhost-startStop-2      HttpSession [c2rvjx] destroyed for 'anonymous'
+2020-01-06 08:41:21,317+0000 localhost-startStop-2      HttpSession [ijmwf8] destroyed for 'anonymous'
+2020-01-06 08:41:21,318+0000 localhost-startStop-2      HttpSession [p482me] destroyed for 'anonymous'
+2020-01-06 08:41:21,319+0000 localhost-startStop-2      HttpSession [jf6mtx] destroyed for 'anonymous'
+2020-01-06 08:41:21,320+0000 localhost-startStop-2      HttpSession [1299qb2] destroyed for 'anonymous'
+2020-01-06 08:41:21,320+0000 localhost-startStop-2      HttpSession [p71cbm] destroyed for 'anonymous'
+2020-01-06 08:41:21,320+0000 localhost-startStop-2      HttpSession [ccwlrn] destroyed for 'anonymous'
+2020-01-06 08:41:21,321+0000 localhost-startStop-2      HttpSession [1iwwzpq] destroyed for 'anonymous'
+2020-01-06 08:41:21,321+0000 localhost-startStop-2      HttpSession [1g8ho6l] destroyed for 'anonymous'
+2020-01-06 08:41:21,321+0000 localhost-startStop-2      HttpSession [1j8vm1t] destroyed for 'anonymous'
+2020-01-06 08:41:21,321+0000 localhost-startStop-2      HttpSession [kpjg0y] destroyed for 'anonymous'
+2020-01-06 08:41:21,325+0000 localhost-startStop-2      HttpSession [o3yc3d] destroyed for 'anonymous'
+2020-01-06 08:41:21,326+0000 localhost-startStop-2      HttpSession [19aymp2] destroyed for 'anonymous'
+2020-01-06 08:41:21,326+0000 localhost-startStop-2      HttpSession [zz0j5t] destroyed for 'anonymous'
+2020-01-06 08:41:21,327+0000 localhost-startStop-2      HttpSession [82i4m4] destroyed for 'anonymous'
+2020-01-06 08:41:21,327+0000 localhost-startStop-2      HttpSession [ielvwe] destroyed for 'anonymous'
+2020-01-06 08:41:21,327+0000 localhost-startStop-2      HttpSession [4cvfmx] destroyed for 'anonymous'
+2020-01-06 08:41:21,327+0000 localhost-startStop-2      HttpSession [1anw139] destroyed for 'anonymous'
+2020-01-06 08:41:21,328+0000 localhost-startStop-2      HttpSession [bvuz9] destroyed for 'anonymous'
+2020-01-06 08:41:21,328+0000 localhost-startStop-2      HttpSession [1qo67py] destroyed for 'anonymous'
+2020-01-06 08:41:21,328+0000 localhost-startStop-2      HttpSession [pynseu] destroyed for 'anonymous'
+2020-01-06 08:41:21,328+0000 localhost-startStop-2      HttpSession [bqfge8] destroyed for 'anonymous'
+2020-01-06 08:41:21,329+0000 localhost-startStop-2      HttpSession [2c2zuo] destroyed for 'anonymous'
+2020-01-06 08:41:21,329+0000 localhost-startStop-2      HttpSession [1grmtbl] destroyed for 'anonymous'
+2020-01-06 08:41:21,329+0000 localhost-startStop-2      HttpSession [1r9v1yr] destroyed for 'anonymous'
+2020-01-06 08:41:21,330+0000 localhost-startStop-2      HttpSession [dyldb0] destroyed for 'anonymous'
+2020-01-06 08:41:21,330+0000 localhost-startStop-2      HttpSession [93j6s4] destroyed for 'anonymous'
+2020-01-06 08:41:21,332+0000 localhost-startStop-2      HttpSession [ympox0] destroyed for 'anonymous'
+2020-01-06 08:41:21,332+0000 localhost-startStop-2      HttpSession [t3dxwq] destroyed for 'anonymous'
+2020-01-06 08:41:21,333+0000 localhost-startStop-2      HttpSession [1hgspwm] destroyed for 'anonymous'
+2020-01-06 08:41:21,334+0000 localhost-startStop-2      HttpSession [lisrnx] destroyed for 'anonymous'
+2020-01-06 08:41:21,334+0000 localhost-startStop-2      HttpSession [h3a1uh] destroyed for 'anonymous'
+2020-01-06 08:41:21,335+0000 localhost-startStop-2      HttpSession [62fvue] destroyed for 'anonymous'
+2020-01-06 08:41:21,337+0000 localhost-startStop-2      HttpSession [126ll7h] destroyed for 'anonymous'
+2020-01-06 08:41:21,338+0000 localhost-startStop-2      HttpSession [lyq39m] destroyed for 'anonymous'
+2020-01-06 08:41:21,344+0000 localhost-startStop-2      HttpSession [coq4bs] destroyed for 'anonymous'
+2020-01-06 08:41:21,345+0000 localhost-startStop-2      HttpSession [1widtqk] destroyed for 'anonymous'
+2020-01-06 08:41:21,345+0000 localhost-startStop-2      HttpSession [1udnyd5] destroyed for 'anonymous'
+2020-01-06 08:41:21,346+0000 localhost-startStop-2      HttpSession [1fehjs] destroyed for 'anonymous'
+2020-01-06 08:41:21,346+0000 localhost-startStop-2      HttpSession [6rrhte] destroyed for 'anonymous'
+2020-01-06 08:41:21,346+0000 localhost-startStop-2      HttpSession [1wtj1ww] destroyed for 'anonymous'
+2020-01-06 08:41:21,347+0000 localhost-startStop-2      HttpSession [193b11q] destroyed for 'anonymous'
+2020-01-06 08:41:21,347+0000 localhost-startStop-2      HttpSession [11uxu4k] destroyed for 'anonymous'
+2020-01-06 08:41:21,364+0000 localhost-startStop-2      HttpSession [haipu2] destroyed for 'anonymous'
+2020-01-06 08:41:21,364+0000 localhost-startStop-2      HttpSession [16easpe] destroyed for 'anonymous'
+2020-01-06 08:41:21,365+0000 localhost-startStop-2      HttpSession [mfbyra] destroyed for 'anonymous'
+2020-01-06 08:41:21,365+0000 localhost-startStop-2      HttpSession [1me68kq] destroyed for 'anonymous'
+2020-01-06 08:41:21,365+0000 localhost-startStop-2      HttpSession [wdr7j6] destroyed for 'anonymous'
+2020-01-06 08:41:21,368+0000 localhost-startStop-2      HttpSession [idcml6] destroyed for 'anonymous'
+2020-01-06 08:41:21,369+0000 localhost-startStop-2      HttpSession [ij7mpa] destroyed for 'anonymous'
+2020-01-06 08:41:21,370+0000 localhost-startStop-2      HttpSession [1y1l0mf] destroyed for 'anonymous'
+2020-01-06 08:41:21,371+0000 localhost-startStop-2      HttpSession [1p82q8l] destroyed for 'anonymous'
+2020-01-06 08:41:21,373+0000 localhost-startStop-2      HttpSession [1ekf0ql] destroyed for 'anonymous'
+2020-01-06 08:41:21,383+0000 localhost-startStop-2      HttpSession [mrqwli] destroyed for 'anonymous'
+2020-01-06 08:41:21,385+0000 localhost-startStop-2      HttpSession [13al8q0] destroyed for 'anonymous'
+2020-01-06 08:41:21,386+0000 localhost-startStop-2      HttpSession [1f3a8m7] destroyed for 'anonymous'
+2020-01-06 08:41:21,386+0000 localhost-startStop-2      HttpSession [7llooa] destroyed for 'anonymous'
+2020-01-06 08:41:21,387+0000 localhost-startStop-2      HttpSession [1hag5nl] destroyed for 'anonymous'
+2020-01-06 08:41:21,387+0000 localhost-startStop-2      HttpSession [4jxa0h] destroyed for 'anonymous'
+2020-01-06 08:41:21,387+0000 localhost-startStop-2      HttpSession [1izrx1y] destroyed for 'anonymous'
+2020-01-06 08:41:21,388+0000 localhost-startStop-2      HttpSession [1kvvnss] destroyed for 'anonymous'
+2020-01-06 08:41:21,388+0000 localhost-startStop-2      HttpSession [yajb66] destroyed for 'anonymous'
+2020-01-06 08:41:21,389+0000 localhost-startStop-2      HttpSession [iv0k9c] destroyed for 'anonymous'
+2020-01-06 08:41:21,389+0000 localhost-startStop-2      HttpSession [c8zlnk] destroyed for 'anonymous'
+2020-01-06 08:41:21,390+0000 localhost-startStop-2      HttpSession [h319xg] destroyed for 'anonymous'
+2020-01-06 08:41:21,390+0000 localhost-startStop-2      HttpSession [10l6x6f] destroyed for 'anonymous'
+2020-01-06 08:41:21,390+0000 localhost-startStop-2      HttpSession [ubo5nx] destroyed for 'anonymous'
+2020-01-06 08:41:21,402+0000 localhost-startStop-2      HttpSession [1eex4s1] destroyed for 'anonymous'
+2020-01-06 08:41:21,403+0000 localhost-startStop-2      HttpSession [ugzdpt] destroyed for 'anonymous'
+2020-01-06 08:41:21,405+0000 localhost-startStop-2      HttpSession [1t5ve1a] destroyed for 'anonymous'
+2020-01-06 08:41:21,406+0000 localhost-startStop-2      HttpSession [1qoxvm6] destroyed for 'anonymous'
+2020-01-06 08:41:21,406+0000 localhost-startStop-2      HttpSession [a4e7rf] destroyed for 'anonymous'
+2020-01-06 08:41:21,406+0000 localhost-startStop-2      HttpSession [uszgni] destroyed for 'anonymous'
+2020-01-06 08:41:21,412+0000 localhost-startStop-2      HttpSession [1gmahbb] destroyed for 'anonymous'
+2020-01-06 08:41:21,413+0000 localhost-startStop-2      HttpSession [pe0u9j] destroyed for 'anonymous'
+2020-01-06 08:41:21,414+0000 localhost-startStop-2      HttpSession [dd01ni] destroyed for 'anonymous'
+2020-01-06 08:41:21,415+0000 localhost-startStop-2      HttpSession [1k1g4g6] destroyed for 'anonymous'
+2020-01-06 08:41:21,415+0000 localhost-startStop-2      HttpSession [1yvdkaj] destroyed for 'anonymous'
+2020-01-06 08:41:21,415+0000 localhost-startStop-2      HttpSession [d94hna] destroyed for 'anonymous'
+2020-01-06 08:41:21,415+0000 localhost-startStop-2      HttpSession [v6dfi8] destroyed for 'anonymous'
+2020-01-06 08:41:21,416+0000 localhost-startStop-2      HttpSession [1rxipz8] destroyed for 'anonymous'
+2020-01-06 08:41:21,416+0000 localhost-startStop-2      HttpSession [yhffcd] destroyed for 'anonymous'
+2020-01-06 08:41:21,416+0000 localhost-startStop-2      HttpSession [73xu44] destroyed for 'anonymous'
+2020-01-06 08:41:21,424+0000 localhost-startStop-2      HttpSession [1rgih4v] destroyed for 'anonymous'
+2020-01-06 08:41:21,425+0000 localhost-startStop-2      HttpSession [120cltx] destroyed for 'anonymous'
+2020-01-06 08:41:21,425+0000 localhost-startStop-2      HttpSession [19r1g2x] destroyed for 'anonymous'
+2020-01-06 08:41:21,425+0000 localhost-startStop-2      HttpSession [1fzzd33] destroyed for 'anonymous'
+2020-01-06 08:41:21,426+0000 localhost-startStop-2      HttpSession [g59hr2] destroyed for 'anonymous'
+2020-01-06 08:41:21,426+0000 localhost-startStop-2      HttpSession [hazhfq] destroyed for 'anonymous'
+2020-01-06 08:41:21,426+0000 localhost-startStop-2      HttpSession [1x5lvlu] destroyed for 'anonymous'
+2020-01-06 08:41:21,427+0000 localhost-startStop-2      HttpSession [1qjrzwk] destroyed for 'anonymous'
+2020-01-06 08:41:21,427+0000 localhost-startStop-2      HttpSession [9f23lg] destroyed for 'anonymous'
+2020-01-06 08:41:21,427+0000 localhost-startStop-2      HttpSession [1ddqow9] destroyed for 'anonymous'
+2020-01-06 08:41:21,427+0000 localhost-startStop-2      HttpSession [1as6jzx] destroyed for 'anonymous'
+2020-01-06 08:41:21,428+0000 localhost-startStop-2      HttpSession [12m01nv] destroyed for 'anonymous'
+2020-01-06 08:41:21,428+0000 localhost-startStop-2      HttpSession [hqe354] destroyed for 'anonymous'
+2020-01-06 08:41:21,428+0000 localhost-startStop-2      HttpSession [pcy6dz] destroyed for 'anonymous'
+2020-01-06 08:41:21,429+0000 localhost-startStop-2      HttpSession [20ap0a] destroyed for 'anonymous'
+2020-01-06 08:41:21,430+0000 localhost-startStop-2      HttpSession [jby7pd] destroyed for 'anonymous'
+2020-01-06 08:41:21,430+0000 localhost-startStop-2      HttpSession [1yehkdh] destroyed for 'anonymous'
+2020-01-06 08:41:21,437+0000 localhost-startStop-2      HttpSession [1jdwvh2] destroyed for 'anonymous'
+2020-01-06 08:41:21,438+0000 localhost-startStop-2      HttpSession [14xzxul] destroyed for 'anonymous'
+2020-01-06 08:41:21,438+0000 localhost-startStop-2      HttpSession [qgbp7f] destroyed for 'anonymous'
+2020-01-06 08:41:21,445+0000 localhost-startStop-2      HttpSession [bdswmj] destroyed for 'anonymous'
+2020-01-06 08:41:21,446+0000 localhost-startStop-2      HttpSession [1qshglx] destroyed for 'anonymous'
+2020-01-06 08:41:21,448+0000 localhost-startStop-2      HttpSession [pyc2q1] destroyed for 'anonymous'
+2020-01-06 08:41:21,448+0000 localhost-startStop-2      HttpSession [1xhzf6k] destroyed for 'anonymous'
+2020-01-06 08:41:21,449+0000 localhost-startStop-2      HttpSession [1uo490a] destroyed for 'anonymous'
+2020-01-06 08:41:21,454+0000 localhost-startStop-2      HttpSession [13oui9u] destroyed for 'anonymous'
+2020-01-06 08:41:21,455+0000 localhost-startStop-2      HttpSession [14sbcnn] destroyed for 'anonymous'
+2020-01-06 08:41:21,456+0000 localhost-startStop-2      HttpSession [ijmc39] destroyed for 'anonymous'
+2020-01-06 08:41:21,456+0000 localhost-startStop-2      HttpSession [itttdc] destroyed for 'anonymous'
+2020-01-06 08:41:21,456+0000 localhost-startStop-2      HttpSession [1k2kqg6] destroyed for 'anonymous'
+2020-01-06 08:41:21,472+0000 localhost-startStop-2      HttpSession [ysevg6] destroyed for 'anonymous'
+2020-01-06 08:41:21,473+0000 localhost-startStop-2      HttpSession [uozs7z] destroyed for 'anonymous'
+2020-01-06 08:41:21,473+0000 localhost-startStop-2      HttpSession [5fj5an] destroyed for 'anonymous'
+2020-01-06 08:41:21,474+0000 localhost-startStop-2      HttpSession [1gm4s4r] destroyed for 'anonymous'
+2020-01-06 08:41:21,474+0000 localhost-startStop-2      HttpSession [1217h53] destroyed for 'anonymous'
+2020-01-06 08:41:21,474+0000 localhost-startStop-2      HttpSession [1jbqgcq] destroyed for 'anonymous'
+2020-01-06 08:41:21,474+0000 localhost-startStop-2      HttpSession [178a1bl] destroyed for 'anonymous'
+2020-01-06 08:41:21,475+0000 localhost-startStop-2      HttpSession [afxpku] destroyed for 'anonymous'
+2020-01-06 08:41:21,475+0000 localhost-startStop-2      HttpSession [9wq7fv] destroyed for 'anonymous'
+2020-01-06 08:41:21,475+0000 localhost-startStop-2      HttpSession [1cjnued] destroyed for 'anonymous'
+2020-01-06 08:41:21,476+0000 localhost-startStop-2      HttpSession [1a8wooz] destroyed for 'anonymous'
+2020-01-06 08:41:21,476+0000 localhost-startStop-2      HttpSession [ni4h40] destroyed for 'anonymous'
+2020-01-06 08:41:21,478+0000 localhost-startStop-2      HttpSession [gjojug] destroyed for 'anonymous'
+2020-01-06 08:41:21,480+0000 localhost-startStop-2      HttpSession [m5fpdh] destroyed for 'anonymous'
+2020-01-06 08:41:21,482+0000 localhost-startStop-2      HttpSession [5aatou] destroyed for 'anonymous'
+2020-01-06 08:41:21,483+0000 localhost-startStop-2      HttpSession [zs93xr] destroyed for 'anonymous'
+2020-01-06 08:41:21,485+0000 localhost-startStop-2      HttpSession [1rusmc5] destroyed for 'anonymous'
+2020-01-06 08:41:21,492+0000 localhost-startStop-2      HttpSession [yzd6pa] destroyed for 'anonymous'
+2020-01-06 08:41:21,493+0000 localhost-startStop-2      HttpSession [1hgdmrz] destroyed for 'anonymous'
+2020-01-06 08:41:21,494+0000 localhost-startStop-2      HttpSession [2sjs3g] destroyed for 'anonymous'
+2020-01-06 08:41:21,494+0000 localhost-startStop-2      HttpSession [dm4nhy] destroyed for 'anonymous'
+2020-01-06 08:41:21,494+0000 localhost-startStop-2      HttpSession [11cecww] destroyed for 'anonymous'
+2020-01-06 08:41:21,495+0000 localhost-startStop-2      HttpSession [1mepoke] destroyed for 'anonymous'
+2020-01-06 08:41:21,495+0000 localhost-startStop-2      HttpSession [43n3i4] destroyed for 'anonymous'
+2020-01-06 08:41:21,495+0000 localhost-startStop-2      HttpSession [5l6vws] destroyed for 'anonymous'
+2020-01-06 08:41:21,499+0000 localhost-startStop-2      HttpSession [fguto6] destroyed for 'anonymous'
+2020-01-06 08:41:21,505+0000 localhost-startStop-2      HttpSession [k8s7i] destroyed for 'anonymous'
+2020-01-06 08:41:21,506+0000 localhost-startStop-2      HttpSession [vfqxho] destroyed for 'anonymous'
+2020-01-06 08:41:21,506+0000 localhost-startStop-2      HttpSession [oj1fi8] destroyed for 'anonymous'
+2020-01-06 08:41:21,506+0000 localhost-startStop-2      HttpSession [19hwrjc] destroyed for 'anonymous'
+2020-01-06 08:41:21,507+0000 localhost-startStop-2      HttpSession [5a8fke] destroyed for 'anonymous'
+2020-01-06 08:41:21,507+0000 localhost-startStop-2      HttpSession [c3s4m] destroyed for 'anonymous'
+2020-01-06 08:41:21,508+0000 localhost-startStop-2      HttpSession [1kb9tb8] destroyed for 'anonymous'
+2020-01-06 08:41:21,508+0000 localhost-startStop-2      HttpSession [1fhqaix] destroyed for 'anonymous'
+2020-01-06 08:41:21,509+0000 localhost-startStop-2      HttpSession [1iwpsxq] destroyed for 'anonymous'
+2020-01-06 08:41:21,509+0000 localhost-startStop-2      HttpSession [1dttqxr] destroyed for 'anonymous'
+2020-01-06 08:41:21,510+0000 localhost-startStop-2      HttpSession [4rgjbc] destroyed for 'anonymous'
+2020-01-06 08:41:21,511+0000 localhost-startStop-2      HttpSession [tpt94] destroyed for 'anonymous'
+2020-01-06 08:41:21,511+0000 localhost-startStop-2      HttpSession [1thte8p] destroyed for 'anonymous'
+2020-01-06 08:41:21,511+0000 localhost-startStop-2      HttpSession [rz2t7x] destroyed for 'anonymous'
+2020-01-06 08:41:21,512+0000 localhost-startStop-2      HttpSession [agi6dl] destroyed for 'anonymous'
+2020-01-06 08:41:21,513+0000 localhost-startStop-2      HttpSession [1cdc30r] destroyed for 'anonymous'
+2020-01-06 08:41:21,513+0000 localhost-startStop-2      HttpSession [fmdo0] destroyed for 'anonymous'
+2020-01-06 08:41:21,514+0000 localhost-startStop-2      HttpSession [1nkg7yj] destroyed for 'anonymous'
+2020-01-06 08:41:21,514+0000 localhost-startStop-2      HttpSession [1kby8e1] destroyed for 'anonymous'
+2020-01-06 08:41:21,514+0000 localhost-startStop-2      HttpSession [1acobfk] destroyed for 'anonymous'
+2020-01-06 08:41:21,515+0000 localhost-startStop-2      HttpSession [iqoj4m] destroyed for 'anonymous'
+2020-01-06 08:41:21,515+0000 localhost-startStop-2      HttpSession [i1io7v] destroyed for 'anonymous'
+2020-01-06 08:41:21,516+0000 localhost-startStop-2      HttpSession [17gud6l] destroyed for 'anonymous'
+2020-01-06 08:41:21,516+0000 localhost-startStop-2      HttpSession [17ukkmn] destroyed for 'anonymous'
+2020-01-06 08:41:21,516+0000 localhost-startStop-2      HttpSession [1kee2qf] destroyed for 'anonymous'
+2020-01-06 08:41:21,517+0000 localhost-startStop-2      HttpSession [18rs0s6] destroyed for 'anonymous'
+2020-01-06 08:41:21,517+0000 localhost-startStop-2      HttpSession [12s69g3] destroyed for 'anonymous'
+2020-01-06 08:41:21,517+0000 localhost-startStop-2      HttpSession [onv8xz] destroyed for 'anonymous'
+2020-01-06 08:41:21,518+0000 localhost-startStop-2      HttpSession [1wth7gj] destroyed for 'anonymous'
+2020-01-06 08:41:21,518+0000 localhost-startStop-2      HttpSession [raf8dn] destroyed for 'anonymous'
+2020-01-06 08:41:21,518+0000 localhost-startStop-2      HttpSession [17xcc9d] destroyed for 'anonymous'
+2020-01-06 08:41:21,519+0000 localhost-startStop-2      HttpSession [1dwlcve] destroyed for 'anonymous'
+2020-01-06 08:41:21,519+0000 localhost-startStop-2      HttpSession [wnzb4w] destroyed for 'anonymous'
+2020-01-06 08:41:21,519+0000 localhost-startStop-2      HttpSession [1xcsgli] destroyed for 'anonymous'
+2020-01-06 08:41:21,519+0000 localhost-startStop-2      HttpSession [1clne7o] destroyed for 'anonymous'
+2020-01-06 08:41:21,520+0000 localhost-startStop-2      HttpSession [1fzsy2f] destroyed for 'anonymous'
+2020-01-06 08:41:21,520+0000 localhost-startStop-2      HttpSession [1xokh8t] destroyed for 'anonymous'
+2020-01-06 08:41:21,521+0000 localhost-startStop-2      HttpSession [td4bfx] destroyed for 'anonymous'
+2020-01-06 08:41:21,522+0000 localhost-startStop-2      HttpSession [1i84whh] destroyed for 'anonymous'
+2020-01-06 08:41:21,534+0000 localhost-startStop-2      HttpSession [nb39jm] destroyed for 'anonymous'
+2020-01-06 08:41:21,534+0000 localhost-startStop-2      HttpSession [3fashh] destroyed for 'anonymous'
+2020-01-06 08:41:21,535+0000 localhost-startStop-2      HttpSession [cs3v55] destroyed for 'anonymous'
+2020-01-06 08:41:21,535+0000 localhost-startStop-2      HttpSession [6d839h] destroyed for 'anonymous'
+2020-01-06 08:41:21,536+0000 localhost-startStop-2      HttpSession [ql2ckg] destroyed for 'anonymous'
+2020-01-06 08:41:21,536+0000 localhost-startStop-2      HttpSession [mhnplg] destroyed for 'anonymous'
+2020-01-06 08:41:21,537+0000 localhost-startStop-2      HttpSession [1spy18a] destroyed for 'anonymous'
+2020-01-06 08:41:21,538+0000 localhost-startStop-2      HttpSession [1ja9785] destroyed for 'anonymous'
+2020-01-06 08:41:21,539+0000 localhost-startStop-2      HttpSession [10l8xdo] destroyed for 'anonymous'
+2020-01-06 08:41:21,539+0000 localhost-startStop-2      HttpSession [1m4h0ca] destroyed for 'anonymous'
+2020-01-06 08:41:21,540+0000 localhost-startStop-2      HttpSession [eaasl6] destroyed for 'anonymous'
+2020-01-06 08:41:21,541+0000 localhost-startStop-2      HttpSession [14lw8ja] destroyed for 'anonymous'
+2020-01-06 08:41:21,542+0000 localhost-startStop-2      HttpSession [1qy6wi5] destroyed for 'anonymous'
+2020-01-06 08:41:21,542+0000 localhost-startStop-2      HttpSession [wnxwl3] destroyed for 'anonymous'
+2020-01-06 08:41:21,543+0000 localhost-startStop-2      HttpSession [1rnswo1] destroyed for 'anonymous'
+2020-01-06 08:41:21,543+0000 localhost-startStop-2      HttpSession [bw0w4n] destroyed for 'anonymous'
+2020-01-06 08:41:21,543+0000 localhost-startStop-2      HttpSession [1mpmo1] destroyed for 'anonymous'
+2020-01-06 08:44:43,986+0000 http-nio-8080-exec-2      HttpSession created [1bwzptz]
+2020-01-06 08:47:48,381+0000 localhost-startStop-2      HttpSession [1bwzptz] destroyed for 'anonymous'
+2020-01-06 08:47:50,230+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.
+2020-01-06 09:09:26,167+0000 JIRA-Bootstrap      JIRA 8.6.0 build: 806000 started. You can now access JIRA through your web browser.

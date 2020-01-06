@@ -1,0 +1,42 @@
+version: '3.7'
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile-postgres
+    ports: 
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - pgconf:/etc/postgresql
+      - pglog:/var/log/postgresql
+      - ./postgres/init:/docker-entrypoint-initdb.d/
+  jiraprod:
+    image: 'atlassian/jira-software'
+    ports:
+      - "8080:8080"
+  confluenceprod:
+    image: 'atlassian/confluence-server'
+    ports:
+      - "8090:8090"
+  bitbucketprod:
+    image: 'atlassian/bitbucket-server'
+    ports:
+      - "7990:7990"
+  nginx:
+    image: 'nginx'
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8088:8088"
+    volumes:
+      - ./nginx/config/:/etc/nginx/
+volumes:
+  pgdata:
+    driver: local
+  pgconf:
+    driver: local
+  pglog:
+    driver: local
+  pginit:
+    driver: local

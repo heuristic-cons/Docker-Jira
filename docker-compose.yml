@@ -1,0 +1,89 @@
+version: '3.7'
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile-postgres
+    ports: 
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - postgres_conf:/etc/postgresql
+      - postgres_log:/var/log/postgresql
+      - ./postgres/init:/docker-entrypoint-initdb.d/
+    restart: 
+      unless-stopped
+
+  jiraprod:
+    image: 'atlassian/jira-software'
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./jira/import:/var/atlassian/application-data/jira/import
+      - ./jira/export:/var/atlassian/application-data/jira/export
+      - ./jira/log:/var/atlassian/application-data/jira/log   
+      - jira_var:/var/atlassian
+      - jira_opt:/opt/atlassian
+    env_file:
+      - ./jira.env
+    restart: 
+      unless-stopped
+
+  confluenceprod:
+    image: 'atlassian/confluence-server'
+    ports:
+      - "8090:8090"
+    volumes:
+      - confluence_var:/var/atlassian
+      - confluence_opt:/opt/atlassian
+    env_file:
+      - ./confluence.env
+    restart: 
+      unless-stopped
+
+  bitbucketprod:
+    image: 'atlassian/bitbucket-server'
+    ports:
+      - "7990:7990"  
+    volumes:
+      - bitbucket_var:/var/atlassian
+      - bitbucket_opt:/opt/atlassian   
+    env_file:
+      - ./bitbucket.env
+    restart: 
+      unless-stopped
+
+  nginx:
+    image: 'linuxserver/nginx'
+    container_name: nginx
+    env_file:
+      - ./nginx.env
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8088:8088"
+    # volumes:
+    #   - ./nginx/config:/etc/nginx
+    #   - ./nginx/certs:/etc/ssl/private
+    restart: 
+      unless-stopped
+
+volumes:
+  postgres_data:
+    external: true
+  postgres_conf:
+    external: true
+  postgres_log:
+    external: true    
+  jira_var:
+    external: true
+  jira_opt:
+    external: true    
+  bitbucket_var:
+    external: true
+  bitbucket_opt:
+    external: true    
+  confluence_var:
+    external: true
+  confluence_opt:
+    external: true    
